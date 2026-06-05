@@ -1,0 +1,23 @@
+{
+  "name": "ai-website",
+  "version": "1.0.0",
+  "description": "A modern AI assistant website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm start\" \"cd server && npm run dev\"",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "AI",
+    "assistant",
+    "chat",
+    "React",
+    "Express"
+  ],
+  "author": "haozinbyyds",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
